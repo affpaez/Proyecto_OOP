@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{d7a8cf5b-7375-4c27-b8db-d55efbb6600c}</ProjectGuid>
+    <RootNamespace>MiProyecto</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="ConfirmarSalidaScreen.h" />
+    <ClInclude Include="FelicidadesScreen.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="JuegoScreen.h" />
+    <ClInclude Include="JuegoTerminadoScreen.h" />
+    <ClInclude Include="MenuScreen.h" />
+    <ClInclude Include="OpcionesScreen.h" />
+    <ClInclude Include="PantallaJuego.h" />
+    <ClInclude Include="ParejaPalabraImagen.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Screen.h" />
+    <ClInclude Include="SeleccionNivelScreen.h" />
+    <ClInclude Include="Utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="ConfirmarSalidaScreen.cpp" />
+    <ClCompile Include="FelicidadesScreen.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="JuegoScreen.cpp" />
+    <ClCompile Include="JuegoTerminadoScreen.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MenuScreen.cpp" />
+    <ClCompile Include="OpcionesScreen.cpp" />
+    <ClCompile Include="PantallaJuego.cpp" />
+    <ClCompile Include="ParejaPalabraImagen.cpp" />
+    <ClCompile Include="SeleccionNivelScreen.cpp" />
+    <ClCompile Include="Utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\res\images\back_confirmar.png" />
+    <Image Include="..\res\images\back_ganaste.png" />
+    <Image Include="..\res\images\back_juego.png" />
+    <Image Include="..\res\images\back_menu.png" />
+    <Image Include="..\res\images\back_niveles.png" />
+    <Image Include="..\res\images\back_opciones.png" />
+    <Image Include="..\res\images\back_perdiste.png" />
+    <Image Include="..\res\images\ballena.png" />
+    <Image Include="..\res\images\bicicleta.png" />
+    <Image Include="..\res\images\camiseta.png" />
+    <Image Include="..\res\images\casa.png" />
+    <Image Include="..\res\images\cocodrilo.png" />
+    <Image Include="..\res\images\diente.png" />
+    <Image Include="..\res\images\dinosaurio.PNG" />
+    <Image Include="..\res\images\elefante.png" />
+    <Image Include="..\res\images\fuego.png" />
+    <Image Include="..\res\images\girasol.png" />
+    <Image Include="..\res\images\gusano.png" />
+    <Image Include="..\res\images\lapiz.png" />
+    <Image Include="..\res\images\libro.png" />
+    <Image Include="..\res\images\lluvia.png" />
+    <Image Include="..\res\images\mariposa.png" />
+    <Image Include="..\res\images\mesa.png" />
+    <Image Include="..\res\images\naranja.png" />
+    <Image Include="..\res\images\nube.png" />
+    <Image Include="..\res\images\pantalones.png" />
+    <Image Include="..\res\images\paraguas.png" />
+    <Image Include="..\res\images\pelicula.png" />
+    <Image Include="..\res\images\platano.png" />
+    <Image Include="..\res\images\rueda.png" />
+    <Image Include="..\res\images\taza.png" />
+    <Image Include="..\res\images\telefono.png" />
+    <Image Include="..\res\images\tomate.png" />
+    <Image Include="..\res\images\ventana.png" />
+    <Image Include="..\res\images\viajeros.png" />
+    <Image Include="..\res\images\zanahoria.png" />
+    <Image Include="..\res\images\zapato.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\res\fonts\Bold.ttf" />
+    <Font Include="..\res\fonts\crepes.ttf" />
+    <Font Include="..\res\fonts\Medium.ttf" />
+    <Font Include="..\res\fonts\Regular.ttf" />
+    <Font Include="..\res\fonts\SemiBold.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\res\music\correct.mp3" />
+    <Media Include="..\res\music\fail.mp3" />
+    <Media Include="..\res\music\fondo.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MiProyecto.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

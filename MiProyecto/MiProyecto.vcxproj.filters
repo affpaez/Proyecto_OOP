@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8926e80-c8cc-4c53-9975-5feaa7b7d3d8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PantallaJuego.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ParejaPalabraImagen.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScreen.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="SeleccionNivelScreen.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="OpcionesScreen.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfirmarSalidaScreen.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="FelicidadesScreen.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="JuegoTerminadoScreen.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="JuegoScreen.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PantallaJuego.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ParejaPalabraImagen.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuScreen.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="SeleccionNivelScreen.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="OpcionesScreen.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfirmarSalidaScreen.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="FelicidadesScreen.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="JuegoTerminadoScreen.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="JuegoScreen.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\res\images\back_confirmar.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\back_ganaste.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\back_juego.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\back_menu.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\back_niveles.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\back_opciones.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\back_perdiste.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\ballena.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\bicicleta.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\camiseta.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\casa.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\cocodrilo.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\diente.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\dinosaurio.PNG">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\elefante.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\fuego.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\girasol.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\gusano.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\lapiz.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\libro.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\lluvia.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\mariposa.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\mesa.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\naranja.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\nube.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\pantalones.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\paraguas.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\pelicula.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\platano.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\rueda.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\taza.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\telefono.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\tomate.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\ventana.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\viajeros.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\zanahoria.png">
+      <Filter>src</Filter>
+    </Image>
+    <Image Include="..\res\images\zapato.png">
+      <Filter>src</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\res\fonts\Bold.ttf">
+      <Filter>src</Filter>
+    </Font>
+    <Font Include="..\res\fonts\crepes.ttf">
+      <Filter>src</Filter>
+    </Font>
+    <Font Include="..\res\fonts\Medium.ttf">
+      <Filter>src</Filter>
+    </Font>
+    <Font Include="..\res\fonts\Regular.ttf">
+      <Filter>src</Filter>
+    </Font>
+    <Font Include="..\res\fonts\SemiBold.ttf">
+      <Filter>src</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\res\music\fail.mp3">
+      <Filter>src</Filter>
+    </Media>
+    <Media Include="..\res\music\fondo.mp3">
+      <Filter>src</Filter>
+    </Media>
+    <Media Include="..\res\music\correct.mp3">
+      <Filter>src</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MiProyecto.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
