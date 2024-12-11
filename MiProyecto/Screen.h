@@ -2,7 +2,7 @@
 
 #include "PantallaJuego.h"
 
-class Game; // Declaración adelantada
+class Game; // Declaracion adelantada
 
 class Screen
 {

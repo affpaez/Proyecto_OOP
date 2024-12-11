@@ -45,7 +45,7 @@ private:
     int posiciones[9];
     const char* textosMezclados[9];
 
-    // Definición de la constante para el tamaño de textoConcatenado
+    // Definicion de la constante para el tamaño de textoConcatenado
     static const size_t TEXTO_CONCATENADO_SIZE = 20;
 
     // Texto concatenado

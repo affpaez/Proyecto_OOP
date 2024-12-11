@@ -1,4 +1,25 @@
-﻿  LINK : C:\Users\affpa\OneDrive\Desktop\MiProyecto\x64\Debug\MiProyecto.exe not found or not built by the last incremental link; performing full link
+﻿  Button.cpp
+C:\Users\affpa\OneDrive\Desktop\MiProyecto\MiProyecto\Button.cpp(46,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\affpa\OneDrive\Desktop\MiProyecto\MiProyecto\Button.cpp(50,61): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  ConfirmarSalidaScreen.cpp
+  FelicidadesScreen.cpp
+  Game.cpp
+  JuegoScreen.cpp
+C:\Users\affpa\OneDrive\Desktop\MiProyecto\MiProyecto\JuegoScreen.cpp(42,28): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\affpa\OneDrive\Desktop\MiProyecto\MiProyecto\JuegoScreen.cpp(43,28): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\affpa\OneDrive\Desktop\MiProyecto\MiProyecto\JuegoScreen.cpp(114,24): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\affpa\OneDrive\Desktop\MiProyecto\MiProyecto\JuegoScreen.cpp(115,24): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\affpa\OneDrive\Desktop\MiProyecto\MiProyecto\JuegoScreen.cpp(132,92): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\affpa\OneDrive\Desktop\MiProyecto\MiProyecto\JuegoScreen.cpp(137,59): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  JuegoTerminadoScreen.cpp
+  main.cpp
+  MenuScreen.cpp
+  OpcionesScreen.cpp
+  PantallaJuego.cpp
+  ParejaPalabraImagen.cpp
+  SeleccionNivelScreen.cpp
+  Utils.cpp
+  Generating Code...
   MiProyecto.vcxproj -> C:\Users\affpa\OneDrive\Desktop\MiProyecto\x64\Debug\MiProyecto.exe
   'pwsh.exe' is not recognized as an internal or external command,
   operable program or batch file.

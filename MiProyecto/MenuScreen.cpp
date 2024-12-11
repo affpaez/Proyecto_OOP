@@ -19,11 +19,7 @@ void MenuScreen::Update(Game& game)
         {
             game.ChangeScreen(PantallaJuego::OPCIONES);
         }
-        /*if (CheckCollisionPointRec(mousePos, Rectangle{ancho / 2 - 100, alto / 2 + 50, 200, 50}))
-        {
-            game.ChangeScreen(PantallaJuego::SALIR);
-        }
-        */
+
     }
 }
 

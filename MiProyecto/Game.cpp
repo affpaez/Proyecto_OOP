@@ -56,10 +56,10 @@ Game::Game()
     fondoGanaste = LoadTexture("back_ganaste.png");
     fondoPerdiste = LoadTexture("back_perdiste.png");
 
-    // Reproducir música de fondo
+    // Reproducir musica de fondo
     PlayMusicStream(musicaFondo);
 
-    // Inicializar palabras (Fácil)
+    // Inicializar palabras (Facil)
     {
         const char* f1[9] = { "ca", "sa", "lo", "es", "za", "er", "la", "ta", "he" };
         palabrasFacil[0] = ParejaPalabraImagen("casa", f1, LoadTexture("casa.png"));
@@ -127,7 +127,7 @@ Game::Game()
         numPalabrasMedio = 10;
     }
 
-    // Inicializar palabras (Difícil)
+    // Inicializar palabras (Dificil)
     {
         const char* d1[9] = { "za", "na", "ho", "ria", "re", "zi", "no", "lu", "mi" };
         palabrasDificil[0] = ParejaPalabraImagen("zanahoria", d1, LoadTexture("zanahoria.png"));
@@ -166,7 +166,7 @@ Game::Game()
         posiciones[i] = i;
     textoConcatenado[0] = '\0';
 
-    // Cambiar a la pantalla de menú inicial
+    // Cambiar a la pantalla de menu inicial
     ChangeScreen(PantallaJuego::MENU);
 }
 
@@ -192,7 +192,7 @@ Game::~Game()
     UnloadSound(errorSound);
 
     // Descargar texturas de fondos
-    //UnloadTexture(fondoMenu);
+    UnloadTexture(fondoMenu);
     UnloadTexture(fondoNiveles);
     UnloadTexture(fondoJuego);
     UnloadTexture(fondoOpciones);
@@ -265,7 +265,7 @@ void Game::ChangeScreen(PantallaJuego newScreen)
 }
 
 
-// Actualiza la música de fondo según el estado
+// Actualiza la musica de fondo segun el estado
 void Game::UpdateMusic()
 {
     if (musicaFondoEnabled &&
@@ -340,7 +340,7 @@ float Game::GetTiempoMostrarResultado() const { return tiempoMostrarResultado; }
 int* Game::GetPosiciones() { return posiciones; }
 const char** Game::GetTextos() { return textos; }
 
-// Reinicia las sílabas y las mezcla
+// Reinicia las silabas y las mezcla
 void Game::ReiniciarSilabas()
 {
     for (int i = 0; i < 9; i++)
@@ -350,7 +350,7 @@ void Game::ReiniciarSilabas()
         textosMezclados[i] = textos[posiciones[i]];
 }
 
-// Selecciona el nivel fácil
+// Selecciona el nivel facil
 void Game::SeleccionarNivelFacil()
 {
     seleccionarPalabrasEImagenesAleatorias(palabrasFacil, numPalabrasFacil, palabrasSeleccionadas, 10);
@@ -372,7 +372,7 @@ void Game::SeleccionarNivelMedio()
     ChangeScreen(PantallaJuego::JUEGO);
 }
 
-// Selecciona el nivel difícil
+// Selecciona el nivel dificil
 void Game::SeleccionarNivelDificil()
 {
     seleccionarPalabrasEImagenesAleatorias(palabrasDificil, numPalabrasDificil, palabrasSeleccionadas, 10);
@@ -392,7 +392,7 @@ void Game::ResetJuego()
     aciertos = 0;
 }
 
-// Comprueba si el usuario acertó
+// Comprueba si el usuario acerto
 void Game::ComprobarAcierto()
 {
     bool acierto = (strcmp(textoConcatenado, palabraActualPareja.GetPalabra().c_str()) == 0);
@@ -445,7 +445,7 @@ void Game::ActualizarResultado()
     }
 }
 
-// Actualiza la rotación de la imagen
+// Actualiza la rotacion de la imagen
 void Game::ActualizarRotacion()
 {
     if (rotandoDerecha)

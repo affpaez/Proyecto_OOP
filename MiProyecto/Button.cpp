@@ -1,6 +1,6 @@
 // Button.cpp
 #include "Button.h"
-#include "Game.h" // Solo si es necesario
+#include "Game.h"
 #include "raylib.h"
 
 // Constructor
@@ -8,7 +8,7 @@ Button::Button(Rectangle r, const std::string& t, int fs, Color nc, Color hc, Co
     : rect(r), text(t), fontSize(fs), normalColor(nc), hoverColor(hc), clickColor(cc), textColor(tc),
     hoverSound(hs), clickSound(cs), soundEffectsEnabled(se), font(f), hoverSoundPlayed(false) {}
 
-// Dibuja el botón
+// Dibuja el boton
 void Button::Draw()
 {
     Vector2 mousePosition = GetMousePosition();
@@ -50,11 +50,11 @@ void Button::Draw()
     DrawTextEx(font, text.c_str(), Vector2{ textX, textY }, fontSize, 0, textColor);
 }
 
-// Verifica si el botón ha sido clickeado
+// Verifica si el boton ha sido clickeado
 bool Button::IsClicked() const
 {
     return IsMouseButtonReleased(MOUSE_LEFT_BUTTON) && CheckCollisionPointRec(GetMousePosition(), rect);
 }
 
-// Cambia el texto del botón
+// Cambia el texto del boton
 void Button::SetText(const std::string& t) { text = t; }

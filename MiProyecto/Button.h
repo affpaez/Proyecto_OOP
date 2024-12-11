@@ -3,7 +3,7 @@
 #include "raylib.h"
 #include <string>
 
-class Game; // Declaración adelantada
+class Game; // Declaracion adelantada
 
 class Button
 {

@@ -2,7 +2,7 @@
 #include "Utils.h"
 #include <cstdlib>
 
-// Implementación de mezclarArreglo
+// Implementacion de mezclarArreglo
 void mezclarArreglo(int* arreglo, int tamaño)
 {
     for (int i = tamaño - 1; i > 0; i--)
@@ -14,7 +14,7 @@ void mezclarArreglo(int* arreglo, int tamaño)
     }
 }
 
-// Implementación de seleccionarPalabrasEImagenesAleatorias
+// Implementacion de seleccionarPalabrasEImagenesAleatorias
 void seleccionarPalabrasEImagenesAleatorias(ParejaPalabraImagen* arregloFuente, int tamañoFuente, ParejaPalabraImagen* arregloObjetivo, int tamañoObjetivo)
 {
     int* indices = (int*)malloc(tamañoFuente * sizeof(int));

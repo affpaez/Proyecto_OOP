@@ -5,7 +5,7 @@
 #include "Game.h"
 #include "Button.h"
 #include "raylib.h"
-#include <cstring> // Para strcmp, etc.
+#include <cstring>
 
 void JuegoScreen::Update(Game& game)
 {
